@@ -1,2 +1,2 @@
-soccer-data
-===========
+# soccer-data
+### a Sails application
