@@ -9,6 +9,6 @@
  */
 
 module.exports.bootstrap = function (cb) {
-  DataRetrievalService.init_table_data_update(600000);
+  DataRetrievalService.init_table_data_update(600000, 10800000);
   cb();
 };
