@@ -42,6 +42,7 @@ function update_table_data(callback) {
                     existing_row.gd = rows[i].gd;
                     existing_row.played = rows[i].played;
                     existing_row.points = rows[i].points;
+                    existing_row.matches = rows[i].matches;
                     existing_row.save(function(err) {});
                 } else {
                     // Create new team at position
